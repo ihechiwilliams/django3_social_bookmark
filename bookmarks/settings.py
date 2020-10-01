@@ -151,13 +151,13 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '4370134106391247' # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = 'ff94fc5f72d856b961fef68f82a57c7a' # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = 'xxxxxxxxxxxxxx' # Facebook App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = 'xxxxxxxxxxx' # Facebook App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
-SOCIAL_AUTH_TWITTER_KEY = '8MAfTFMPIq8Q1dhXxGObzm7Fj' # Twitter API Key
-SOCIAL_AUTH_TWITTER_SECRET = 'C54YWY3FGOahGy4ydgMxz6MRa6hB6nlaNSIiqYfdYg658GDX1j' # Twitter API Secret
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '567308977007-12e59pi9len51iv4dc43u54csmi8udom.apps.googleusercontent.com' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'LrytHzvrhaFk5H-Bi_iO46xC' # Google Consumer Secret
+SOCIAL_AUTH_TWITTER_KEY = 'xxxxxxxxxxx' # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = 'xxxxxxxxxxx' # Twitter API Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'xxxxxxxxxxxxxxxxxx' # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'xxxxxxxxxxxxxxxxxxxx' # Google Consumer Secret
 
 ABSOLUTE_URL_OVERRIDES = {
     'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
